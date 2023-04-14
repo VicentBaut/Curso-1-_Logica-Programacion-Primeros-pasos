@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+<h1>¿Alcohol o gasolina?</h1> <!--Titulo h1-->
+
+<script>
+	document.write("<br>"); //Salto de linea
+	document.write("<h2>Auto: Gasolina</h2>"); //subTitulo h2
+	document.write("<br>"); //Salto de linea
+
+	var tanque = 40; //litros
+
+	var recorridoG = 480; //kilometros
+	var distancia_litroG = (recorridoG/tanque);//Eficiencia de Gasolina
+	var recorridoA = 300; //kilometros
+	var distancia_litroA = (recorridoA/tanque);//Eficiencia del Alcohol
+
+	document.write("<h3>La eficiencia del auto con gasolina es de: "+distancia_litroG+" por litro</h3>");
+	//Concatenacion de texto y cantidad
+
+	document.write("<br>"); //Salto de linea
+	document.write("<h2>Auto: Alcohol</h2>");//subTitulo h2
+	document.write("<br>"); //Salto de linea
+		
+	document.write("<h3>La eficiencia del auto con alcohol es de: "+distancia_litroA+" por litro</h3>");
+	//Concatenacion de texto y cantidad
+</script>
