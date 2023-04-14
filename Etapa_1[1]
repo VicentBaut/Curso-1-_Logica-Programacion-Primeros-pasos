@@ -1,0 +1,18 @@
+<h1>mi primer programa HTML!!</h1> <!--Texto como Titulo con propiedad: size-->
+
+<br><!--Salto de linea-->
+<br><!--Salto de linea-->
+<br><!--Salto de linea-->
+
+será esto realmente un programa? descubralo <!--Texto sin atributos-->
+<a href="https://es.wikipedia.org/wiki/HTML">aqui</a><!--Link web con texto de acceso-->
+
+<br><!--Salto de linea-->
+<br><!--Salto de linea-->
+
+ingresa <a href="https://es.wikipedia.org/wiki/JavaScript">aqui</a><!--Link web con texto de acceso-->
+para ver un verdadero lenguage de programación <!--Texto sin atrivutos-->
+
+<script> //Territotio Javascript
+	alert("Esto sí es lenguaje de programación");//Mensaje emergente
+//fin del Javascript </script>
