@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<h1>Mi hermano y yo?</h1> <!--Titulo h1-->
+<script>
+	function saltarlinea() //funcion de salto
+	{
+		document.write("<br><br><br>");
+	}
+	function mostrar(diferencia) //funcion de invocacion de salto e imprimir contenido
+	{
+		saltarlinea()
+		document.write(diferencia)
+	}
+
+	let miEdad = 19; //variable Entero
+	let hermanoEdad = 24; //variable Entero
+	let diferenciaP = (hermanoEdad-miEdad);//valor positivo
+	let diferenciaN = (miEdad-hermanoEdad);//valor negativo
+
+	mostrar("<h2>La diferencia de edad[positiva], es de: "+diferenciaP+"</h2"); //Concatenacion h2
+	mostrar("<h2>La diferencia de edad[negativa], es de: "+diferenciaN+"</h2>"); //Concatenacion h2
+</script>
