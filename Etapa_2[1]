@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+	document.write("la suma de las edades de Juan, Pedro y Carlos es..."); //Cadena de caracteres
+	document.write("<br>"); //Salto de linea
+	document.write((20+25+15)); //Concatenacion de suma
+
+	document.write("<br>"); //Salto de linea
+	document.write("<br>"); //Salto de linea
+
+	document.write("Juan nació en el año..."); //Cadena de caracteres
+	document.write("<br>"); //Salto de linea
+	document.write(2020 - 20); //Concatenacion de resta
+
+	document.write("<br>"); //Salto de linea
+	document.write("<br>"); //Salto de linea
+
+	document.write("Pedro nació en el año..."); //Cadena de caracteres
+	document.write("<br>"); //Salto de linea
+	document.write(2020 - 25); //Concatenacion de resta
+
+	document.write("<br>"); //Salto de linea
+	document.write("<br>"); //Salto de linea
+	
+	document.write("Carlos nació en el año..."); //Cadena de caracteres
+	document.write("<br>"); //Salto de linea
+	document.write(2020 - 15); //Concatenacion de resta
+
+</script>
