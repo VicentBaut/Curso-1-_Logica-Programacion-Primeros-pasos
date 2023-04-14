@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<h1>Indice de masa corporal - IMC</h1><!--Titulo-->
+<script>
+	function Salto() //funcion de salto de linea
+	{
+		document.write("<br><br><br>"); //3 salto's de linea
+	}
+	function escribe(contenido) //funcion de escritura con parametro
+	{
+		document.write(contenido); //comando de escritura con uso de parametro
+		salto(); //invocacion de la funcion Salto()
+	}
+	function calculoImc(peso,altura,referencia) //funcion de calculo IMC con parametros
+	{
+		return (peso / (altura * altura)); //Retorno del resultado sin uso de variables
+	}
+
+escribe( "El promedio del imc calculado de Christian y Felime es " //concatenacion de texto
++ (calculoImc(71,1.72) + calculoImc(75,1.73)/2) ); //concatenacion de division con funcion
+
+	escribe( "El promedio del imc calculado de Gabriela y Luisa es " //cocatenacion de texto
+	+ (calculoImc(65,1.68)+calculoImc(55,1.60)/2) ); //concatenacion de division con funcion
+</script>
