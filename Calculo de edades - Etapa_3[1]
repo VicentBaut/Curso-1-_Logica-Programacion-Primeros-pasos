@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 
-<h1>PROGRAMA</h1> <!--Titulo h1-->
+<h1>CALCULO DE EDADES DE RESTA DE NUMEROS</h1> <!--Titulo h1-->
 
 <script>
 
@@ -32,7 +32,7 @@
 	let nombre2 = "Paola"; /*Variable de texto*/  var edadPaola = 25; /*Variable de entero*/
 	let nombre3 = "Laura"; /*Variable de texto*/  var edadLaura = 15; /*Variable de entero*/
 
-	let promedio = ((edadJimena+edadPaola+edadLaura)/3); //Operacion: promedio
+	let promedio = ((edadJimena+edadPaola+edadLaura)/3); //Operacion de suma y division
 
 	document.write
 	(
