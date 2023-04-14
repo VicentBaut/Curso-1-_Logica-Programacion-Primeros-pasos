@@ -1,0 +1,43 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA</h1> <!--Titulo h1-->
+
+<script>
+
+	let anual = 2025; //Variable de entero
+
+	document.write("Juan tiene: " + (anual-2000) + " años"); //Concatenacion de texto y resta
+	document.write("<br><br>");
+	document.write("Pedro tiene: " + (anual-1995) + " años"); //Concatenacion de texto y resta
+	
+	anual = 2030; //Variable de entero
+
+	document.write("<br><br>"); //Salto de linea
+	document.write("Carlos tiene: " + (anual-2005) + " años"); //Concatenacion de texto y resta
+
+	document.write("<br><br><br><br>"); //Salto de linea
+
+	anual = 2020; //Variable de entero
+
+	document.write("Jimena tiene: "+(anual-2010)+" años"); //Concatenacion de texto y resta
+	document.write("<br><br>"); //Salto de linea
+
+	document.write("Paola tiene: "+(anual-1995)+" años"); //Concatenacion de texto y resta
+	document.write("<br><br>"); //Salto de linea
+
+	document.write("Laura tiene: "+(anual-2005)+" años"); //Concatenacion de texto y resta
+	document.write("<br><br>"); //Salto de linea
+
+	let nombre1 = "Jimena";/*Variable de texto*/  var edadJimena = 10;/*Variable de entero*/
+	let nombre2 = "Paola"; /*Variable de texto*/  var edadPaola = 25; /*Variable de entero*/
+	let nombre3 = "Laura"; /*Variable de texto*/  var edadLaura = 15; /*Variable de entero*/
+
+	let promedio = ((edadJimena+edadPaola+edadLaura)/3); //Operacion: promedio
+
+	document.write
+	(
+		"El promedio-edades: "+nombre1+", "+nombre2+" y "+ nombre3+" es de: "//Concateacion de texto
+		+ Math.round(promedio) //Redondear los decimales
+	);
+	document.write("<br>"); //Salto de linea
+</script>
