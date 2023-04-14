@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<h1>PROGRAMA</h1>
+<script>
+    function saltarLinea() {
+        document.write("<br><br><br><hr><br><br>"); //cinco saltos de linea 
+    }  
+    function escribe(frase)
+    {
+        document.write("<big>"+frase+"</big>");
+        saltarLinea(); //invocar funcion
+    }
+
+    let anho = 2025;//variable entero
+
+    escribe("hola amigos"); //saludo
+    // este código calcula las edades de Juan, Pedro y Carlos
+    escribe("Juan tiene: " + (anho-2000) + " años"); //Concatenacion
+    escribe("Pedro tiene: " + (anho-1995) + " años"); //Concatenacion
+
+    anho = 2030;//modificacion de variable entero
+
+    escribe("Carlos tiene: " + (anho-2005) + " años"); //Concatenacion
+</script>
