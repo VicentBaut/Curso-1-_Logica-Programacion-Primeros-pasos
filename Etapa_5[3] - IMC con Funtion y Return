@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<h1>Indice de masa corporal - IMC</h1><!--Titulo-->
+<script>
+	function saltarLinea() //funcion de salto de linea
+	{
+		document.write("<br><br><br>");	//3 Salto's de linea
+	}
+	function escribe(frase) //funcion de escritura con parametro
+	{
+		document.write(frase); //comando de escritura con uso de parametro
+		saltarLinea(); //invocacion de salto's de linea
+	}
+	function calcularImc(peso,altura) //funcion de operacion con 2 parametro's
+	{
+		return (peso / (altura * altura)); //retorno del resultado sin variable
+	}
+
+	nombre = prompt("infome su nombre"); //variable con uso de ventana emergente
+	pesoInformado = prompt(nombre + ", infome su peso"); //variable con uso de ventana emergente
+	alturaInformado = prompt(nombre + ",infome su altura"); //variable con uso de ventana emergente
+	
+	imcCalculado = calcularImc(pesoInformado,alturaInformado); //variable con invocacion de funcion calcularImc() y sus parametros
+
+	escribe(nombre + ", su imc calculado es: " + imcCalculado); //invocacion de funcion escribe() y sus parametros
+</script>
